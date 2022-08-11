@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Explore India</title>
+    <link rel="icon" href="https://png.pngitem.com/pimgs/s/558-5585438_india-flag-round-png-file-transparent-png.png" type="image/ico" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="https://thumbs.dreamstime.com/b/simple-clean-crisp-creative-wd-logo-icon-design-vector-format-171888037.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"><link rel="stylesheet" href="checkstyle.css">
+    <link rel="stylesheet" href="checkstyle.css">
+  </head>
+<body>
+  <div class="header">
+    <a href="index.html"><button class="btn"><i class="fa fa-close"></i></button></a>
+</div>
+    <h1>CHECKOUT</h1>
+      <form id="fcheckout" onsubmit="return false">
+        <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="firstName">First name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="lastName">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="emails">E-mail</label>
+        <input type="email" class="form-control" id="emails" placeholder="Email" aria-describedby="inputGroupPrepend2" required>
+      </div>
+    </div>
+        <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="City" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="phnNo">Contact no.</label>
+            <input type="tel" class="form-control" id="phnNo" size="10" placeholder="Mobile No." required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="State">State</label>
+            <input type="text" class="form-control" id="State" placeholder="State" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Zip</label>
+            <input type="text" class="form-control" id="zip" placeholder="Zip" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-9 mb-3">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Address" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="address">Package</label>
+  
+            <select class="form-select" aria-label="Default select example" id="package" required>
+                <option value=""selected>SELECT PACKAGE</option>
+                <option value="GOLDEN TRIANGLE WITH KASHMIR TOUR">GOLDEN TRIANGLE WITH KASHMIR TOUR</option>
+                <option value="GOLDEN TRIANGLE WITH SHIMLA TOUR">GOLDEN TRIANGLE WITH SHIMLA TOUR</option>
+                <option value="GOLDEN TRIANGLE WITH RANTHAMBORE TOUR">GOLDEN TRIANGLE WITH RANTHAMBORE TOUR</option>
+                <option value="GOLDEN TRIANGLE WITH MUMBAI TOUR">GOLDEN TRIANGLE WITH MUMBAI TOUR</option>
+                <option value="GOLDEN TRIANGLE WITH AMRITSAR TOUR">GOLDEN TRIANGLE WITH AMRITSAR TOUR</option>
+                <option value="GOLDEN TRIANGLE WITH HARIDWAR & RISHIKESH TOUR">GOLDEN TRIANGLE WITH HARIDWAR & RISHIKESH TOUR</option>
+                <option value="FASCINATING TOUR OF KERALA">FASCINATING TOUR OF KERALA</option>
+                <option value="TAJ MAHAL WITH GOA BEACHES">TAJ MAHAL WITH GOA BEACHES</option>
+                <option value="BEST OF SOUTH INDIA">BEST OF SOUTH INDIA</option>
+              </select>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-primary mt-5 ml-5" id="btnsub"type="submit">Submit form</button>
+        <p class='disclaimer'>Note: Please fill the details carefully so that our agent could reach you.</p>
+      </div>
+      </form>
+      
+    <form id="details" onsubmit="return false">
+
+      <table id="subdetails">
+        <tr>
+          <td>
+            <label for="name" class="subdetail1">NAME</label>
+          </td>
+          <td>
+            <label id="subname" class="subdetail">anjaly</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label class="subdetail1" for="phone">PHONE</label>
+          </td>
+          <td>
+            <label id="subphn" class="subdetail"></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Package" class="subdetail1">PACKAGE</label>
+          </td>
+          <td>
+            <label id="subpack" class="subdetail"></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="price" class="subdetail1">PRICE</label>
+          </td>
+          <td>
+            <label id="price" class="subdetail"></label>
+          </td>
+        </tr>
+      </table>
+          
+      <h4 id="msg">Request sent to Administrator, kindly wait for the response.<br /> It might take at most 24 hours to recieve the call.</h4>
+      </form>
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <script src="checkscript.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>

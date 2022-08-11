@@ -1,0 +1,172 @@
+body{
+    background-color: #020405;
+  }
+.header{
+    background-image: url("https://media.istockphoto.com/photos/taj-mahal-picture-id177372669?k=20&m=177372669&s=612x612&w=0&h=fyEoF6zGorNBzSAu91BHQwfqoAEVa4tT-JXIEn7AGQc=");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 550px;
+    background-size: cover;
+    margin-bottom: 0;
+    bottom: 0;
+    top: 0;
+    right:0;
+    left:0;
+  }  
+.navbar{
+    margin: auto;
+    padding: 20px;
+  }
+.nav-item{
+    margin: auto;
+  }
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin: auto;
+    padding: 0 50px 0 50px;
+  }
+a:hover{
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+h1{
+    text-align: center;
+    margin: 150px 0 0 0;
+    color: white;
+    font-size: 5rem;
+    font-family:cursive;
+    font-style: italic;
+  }
+h3{
+    text-align: center;
+    color: white;
+    font-family:cursive;
+    font-style: italic;
+  }
+.map{
+    width: 100px;
+    margin: auto;
+  }
+.map:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+.options{
+    margin: auto;
+    width: inherit;
+  }
+.card-deck{
+    width: 100%;
+    margin: auto;
+  }
+.a{
+    width: 100%;
+  }
+.containertwo{
+    width: 80%;
+    margin: 0 auto 100px;;
+  }
+p{
+    color: white;
+    text-align: center;
+  }
+.text{
+    top: 0;
+    position: relative;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+.gp{
+    text-align: center;
+    color:#fff;
+  }
+.a:hover{
+    transition: 0.3s;
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+.packageLink{
+    width: inherit;
+    text-align: center;
+  }
+.row{
+    padding: 0;
+  }
+.card-group{
+    margin: auto;
+    border: none;
+    width: 80%;
+    background-color: inherit;
+  }
+.card{
+    background-color: inherit;
+    padding: 10px;
+  }
+.card-body{
+    background-color: #020405;
+  }
+.footer{
+    margin: auto;
+    position: relative;
+    top: 350px;
+  }
+.logos{
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 20%;
+  }
+.fwall{
+    background-image: url("https://www.zastavki.com/pictures/originals/2014/Nature___Rivers_and_lakes_The_night_sky_above_lake_087335_.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+@media only screen and (max-width: 600px) {
+  .containertwo{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  p{
+    width: 200px;
+    font-size: 0.7rem;
+    margin: auto;
+  }
+.cards{
+    width: 100%;
+    margin: auto;
+  }
+.text{
+    width:250px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.cards:hover{
+    width:90%;
+  }
+.card-group{
+    width: 80%;
+  }
+.card-deck{
+    width: 200px;
+  }
+.ex{
+    width: inherit;
+  }
+body{
+  margin-right: 0;
+}
+.logos{
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 60%;
+}
+}

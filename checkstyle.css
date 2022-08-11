@@ -1,0 +1,150 @@
+form{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h1{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 60%;
+  }
+  body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhsaHWGCTheUzIlCd5NLKtmfkJ7PC6KkJK1rfgmyMXoVgq9NMfOC9OVCaLh5Uxrvfp_0&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  body{
+    color: white;
+  }
+  .disclaimer{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  table{
+    margin: auto;
+  }
+  td{
+    padding: 10px;
+  }
+  h4{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+  }
+  .menu{
+    transition: 0.3s;
+  }
+  h3{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .toggler{
+    margin: auto;
+    width: 60px;
+  }
+
+  .btn-group{
+    width:100%;
+    background-color: #ffffff;
+    color: black;
+  }
+  #validationDefault08{
+    width:100%;
+    border-radius: 3%;
+    background-color: #ffffff;
+    color: black;
+    height: 55%;
+    border-width: 0px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  #detailId{
+    display: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+  }
+  .labels{
+    width: 100%;
+  }
+  a{
+    color: #ffffff;
+    align-self: center;
+  }
+  #subdetails
+  {
+    display: none;
+  }
+  #msg
+  {
+    display: none;
+  }
+  .header{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 0;
+    bottom: 0;
+    top: 0;
+    right:0;
+    left:0;
+  }  
+  .btn {
+    
+    border: none; 
+    color: white; 
+    padding: 12px 16px;
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  .btn:hover {
+    background-color: rgb(41, 62, 128);
+  }
+  
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 0 50px 0 50px;
+  }
+a:hover{
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+h3{
+    text-align: center;
+    margin: 50px 0 0 0;
+    color: white;
+    font-size: 5rem;
+    font-family:cursive;
+    font-style: italic;
+  }
+  .map{
+    width: 100px;
+    margin: auto;
+  }
+.map:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+.options{
+    margin: auto;
+    width: inherit;
+}
+
+  
